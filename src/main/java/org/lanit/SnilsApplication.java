@@ -1,3 +1,4 @@
+//Приложение для запуска
 package org.lanit;
 
 import org.modelmapper.ModelMapper;
@@ -24,6 +25,9 @@ public class SnilsApplication {
 		SpringApplication.run(SnilsApplication.class, args);
 	}
 	@Bean
+//	ModelMapper - это библиотека для автоматического преобразования объектов из одного типа в другой в Java.
+//	Она позволяет разработчикам легко осуществлять миграцию данных между различными моделями,
+//	что упрощает процесс разработки и поддерживаемости приложений.
 	public ModelMapper modelMapper(){
 		return new ModelMapper();
 	}
