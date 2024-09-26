@@ -1,7 +1,7 @@
 package org.lanit.controllers;
 
 import org.lanit.modelsJson.RequestJson;
-import org.lanit.snils.validate.CheckSnils;
+import org.lanit.validate.CheckSnils;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
